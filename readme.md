@@ -1,5 +1,7 @@
 # 【unity】性能优化之——精准获取CPU型号
 
+![](./images/master.png)
+
 本文提出了一种在unity中基于SOC信息配合SOC映射表，精准获取移动设备CPU型号的方法，有效解决了在unity游戏开发过程中难以获取CPU型号的问题。
 
 ## 一、问题背景
