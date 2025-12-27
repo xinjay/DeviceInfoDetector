@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4e0d878d4729848aecf3e6ff14030a, type: 3}
+  m_Name: socasset
+  m_EditorClassIdentifier: 
+  soc_list:
+  - Snapdragon 8 Elite,SM8750,Pakala / Oryon
+  - Snapdragon 8 Gen 3,SM8650,Lanai
+  - Snapdragon 8s Gen 3,SM8635,Lanai (Cut-down)
+  - Snapdragon 8 Gen 2,SM8550,Kalama
+  - Snapdragon 8+ Gen 1,SM8475,Palima
+  - Snapdragon 8 Gen 1,SM8450,Waipio
+  - Snapdragon 888+,SM8350-AC,Lahaina
+  - Snapdragon 888,SM8350,Lahaina
+  - Snapdragon 870,SM8250-AC,Kona (Refresh)
+  - Snapdragon 865+,SM8250-AB,Kona
+  - Snapdragon 865,SM8250,Kona
+  - Snapdragon 855+,SM8150-AC,Hana
+  - Snapdragon 855,SM8150,Hana
+  - Snapdragon 845,SDM845,Napali
+  - Snapdragon 835,MSM8998,8998
+  - Snapdragon 821,MSM8996 Pro,8996Pro
+  - Snapdragon 820,MSM8996,8996
+  - Snapdragon 810,MSM8994,8994 (20nm)
+  - Snapdragon 808,MSM8992,8992
+  - Snapdragon 805,APQ8084,8084
+  - Snapdragon 801,MSM8974AC,Krait 400
+  - Snapdragon 800,MSM8974,Krait 400
+  - Snapdragon S4 Pro,APQ8064,Krait
+  - Snapdragon S4 Plus,MSM8960,Krait
+  - Snapdragon S3,MSM8260,Scorpion
+  - Snapdragon S1,QSD8250,Scorpion
+  - Snapdragon 7+ Gen 3,SM7675,Pineapple
+  - Snapdragon 7 Gen 3,SM7550,Crow
+  - Snapdragon 7s Gen 2,SM7435,4nm (Samsung)
+  - Snapdragon 7+ Gen 2,SM7475,Taro
+  - Snapdragon 7 Gen 1,SM7450,Yupik
+  - Snapdragon 782G,SM7325-AF,Cedros
+  - Snapdragon 778G+,SM7325-AE,Cedros
+  - Snapdragon 778G,SM7325,Cedros
+  - Snapdragon 780G,SM7350,Lahaina (Cut)
+  - Snapdragon 765G,SM7250,Lito
+  - Snapdragon 750G,SM7225,Lito
+  - Snapdragon 730G,SM7150-AB,Lito
+  - Snapdragon 710,SDM710,
+  - Snapdragon 6 Gen 1,SM6450,
+  - Snapdragon 695,SM6375,Holi
+  - Snapdragon 680,SM6225,Bengal
+  - Snapdragon 675,SM6150,Talos
+  - Snapdragon 670,SDM670,
+  - Snapdragon 665,SM6125,Trinket
+  - Snapdragon 660,SDM660,Kryo 260
+  - Snapdragon 652/650,MSM8976,
+  - Snapdragon 636,SDM636,Kryo 260
+  - Snapdragon 625,MSM8953,Legendary 14nm
+  - Snapdragon 615,MSM8939,
+  - Snapdragon 600,APQ8064T,
+  - Snapdragon 4 Gen 2,SM4450,
+  - Snapdragon 4 Gen 1,SM4375,
+  - Snapdragon 480+,SM4350-AC,
+  - Snapdragon 480,SM4350,
+  - Snapdragon 460,SM4250-AA,
+  - Snapdragon 450,SDM450,Downclocked 625
+  - Snapdragon 430,MSM8937,
+  - Snapdragon 410,MSM8916,First 64-bit Mid
+  - Snapdragon 400,MSM8226,
+  - Snapdragon 210,MSM8909,
+  - Snapdragon W5+ Gen 1,SW5100,Wearable
+  - Snapdragon Wear 4100+,SDM429w,Wearable
+  - Snapdragon Wear 3100,MSM8909w,Wearable
+  - Snapdragon X Elite,X1E-00-1DE,PC/Laptop ARM
+  - Snapdragon 8cx Gen 3,SC8280XP,PC/Laptop ARM
+  - Dimensity 9400,MT6991,Blackhawk
+  - Dimensity 9300+,MT6989T,
+  - Dimensity 9300,MT6989,All-Big-Core
+  - Dimensity 9200+,MT6985T,
+  - Dimensity 9200,MT6985,
+  - Dimensity 9000+,MT6983T,
+  - Dimensity 9000,MT6983,
+  - Dimensity 8300,MT6897,
+  - Dimensity 8200,MT6896,
+  - Dimensity 8100,MT6895,
+  - Dimensity 1300,MT6893Z,
+  - Dimensity 1200,MT6893,
+  - Dimensity 1100,MT6891,
+  - Dimensity 1080,MT6877V,
+  - Dimensity 1000+,MT6889Z,
+  - Dimensity 1000,MT6889,
+  - Dimensity 920,MT6877T,
+  - Dimensity 900,MT6877,
+  - Dimensity 800U,MT6853V,
+  - Dimensity 7200,MT6886,
+  - Dimensity 7050,MT6877,Renamed 1080
+  - Dimensity 700,MT6833,
+  - Helio G99,MT6789,Budget Gaming
+  - Helio G96,MT6781,
+  - Helio G95,MT6785V,
+  - Helio G90T,MT6785,Note 8 Pro legendary
+  - Helio G88,MT6769H,
+  - Helio G80/G85,MT6769,
+  - Helio G35,MT6765G,
+  - Helio P90,MT6779,
+  - Helio P70,MT6771V,
+  - Helio P60,MT6771,
+  - Helio P35,MT6765,
+  - Helio P22,MT6762,
+  - Helio P10,MT6755,
+  - Helio X30,MT6799,10nm Tri-Cluster
+  - Helio X20/X25,MT6797,Deca-core
+  - Helio X10,MT6795,
+  - MT6753,MT6753,WorldMode LTE
+  - MT6752,MT6752,Legendary mid-range
+  - MT6735,MT6735,Budget 4G
+  - MT6595,MT6595,First big.LITTLE
+  - MT6592,MT6592,True Octa-core
+  - MT6589,MT6589,Quad Core
+  - MT6580,MT6580,3G Only (Still used)
+  - MT6577,MT6577,Dual Core
+  - Kompanio 1300T,MT8797,Tablet
+  - Kompanio 900T,MT8791,Tablet
+  - Exynos 2400,S5E9945,
+  - Exynos 2200,S5E9925,AMD GPU
+  - Exynos 2100,S5E9840,
+  - Exynos 1480,S5E8845,
+  - Exynos 1380,S5E8835,
+  - Exynos 1280,S5E8825,
+  - Exynos 1080,S5E9815,Vivo exclusive first
+  - Exynos 990,S5E9830,
+  - Exynos 9825,S5E9825,7nm EUV
+  - Exynos 9820,S5E9820,8nm
+  - Exynos 9810,S5E9810,
+  - Exynos 8895,S5E8895,
+  - Exynos 8890,S5E8890,
+  - Exynos 7420,S5E7420,Legendary 14nm
+  - Exynos 5433,S5E5433,Note 4 (Exynos)
+  - Exynos 5430,S5E5430,
+  - Exynos 5422/5800,S5E5422,
+  - Exynos 5260,S5E5260,Hexa-core
+  - Exynos 5410,S5E5410,First big.LITTLE
+  - Exynos 4412,S5E4412,Quad Core
+  - Exynos 4210,S5E4210,Dual Core
+  - Exynos 3 Single,S5PC110,Hummingbird
+  - Exynos W930,S5E5515,Watch
+  - Exynos W920,S5E5515,Watch
+  - A18 Pro,T8140,
+  - A18,T8132,
+  - A17 Pro,T8130,3nm
+  - A16 Bionic,T8120,
+  - A15 Bionic,T8110,
+  - A14 Bionic,T8101,
+  - A13 Bionic,T8030,
+  - A12X/A12Z,T8027,Tablet Performance
+  - A12 Bionic,T8020,
+  - A11 Bionic,T8015,
+  - A10X Fusion,T8011,Tablet
+  - A10 Fusion,T8010,
+  - A9,S8000/S8003,Chipgate era
+  - A9X,S8001,
+  - A8,T7000,
+  - A8X,T7001,
+  - A7,S5L8960,First 64-bit
+  - A6,S5L8950,
+  - A6X,S5L8955,
+  - A5,S5L8940,Dual Core
+  - A4,S5L8930,Single Core
+  - M4,T8132 (Variant),Tablet/PC
+  - M2,T8112,Tablet/PC
+  - M1,T8103,Tablet/PC
+  - S9 SiP,T8310,Watch
+  - S8 SiP,T8301,Watch
+  - Kirin 9010,Hi36A0 (Rev),
+  - Kirin 9000S,Hi36A0 (Rev),
+  - Kirin 9000,Hi36A0,
+  - Kirin 990 5G,Hi3690,
+  - Kirin 980,Hi3680,
+  - Kirin 970,Hi3670,First NPU
+  - Kirin 960,Hi3660,
+  - Kirin 950,Hi3650,
+  - Kirin 920,Hi3630,
+  - Kirin 820,Hi8200,
+  - Kirin 810,Hi8180,Legendary Mid
+  - Kirin 710,Hi6260,
+  - K3V2,Hi3620,Old & Hot
+  - Tensor G4,GS401,Zuma Pro
+  - Tensor G3,GS301,Zuma
+  - Tensor G2,GS201,Cloudripper
+  - Tensor (G1),GS101,Whitechapel
+  - Tiger T820,UMS9620,
+  - Tiger T770,UMS9610,
+  - Tiger T616,UMS9230,
+  - Tiger T612,UMS9230H,
+  - Tiger T610,UMS512,
+  - Tiger T606,UMS9230,
+  - SC9863A,SC9863A,
+  - Tegra X1,T210,Nintendo Switch
+  - Tegra K1 (64-bit),T132,Denver
+  - Tegra K1 (32-bit),T124,
+  - Tegra 4,T114,
+  - Tegra 3,T30,4-Plus-1
+  - Tegra 2,T20,Dual Core
+  - Atom Z3580,Moorefield,x86 Android
+  - Atom Z2580,Clover Trail+,x86 Android
+  - OMAP 4460,OMAP4460,Legacy
+  - OMAP 4430,OMAP4430,Legacy
+  - OMAP 3630,OMAP3630,Legacy
+  - RK3588,RK3588,High-end ARM SBC
+  - RK3399,RK3399,Chromebooks
+  - RK3288,RK3288,Tablets
+  - Surge S1,V670,Failed Experiment
+  - JR510,JR510,Budget 4G
