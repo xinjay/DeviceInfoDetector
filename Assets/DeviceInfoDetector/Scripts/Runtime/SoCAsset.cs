@@ -32,11 +32,9 @@ public class Soc_cpuMap : ScriptableObject, ISerializationCallbackReceiver
     public string GetRealCPUModel(string socinfo)
     {
         var infos = socinfo.Split('#');
-        var actualCpu = ""; 
-        Debug.LogError(actualCpu);
         foreach (var info in infos)
         {
-            if (soc_code2cpu.TryGetValue(info, out actualCpu) || soc_name2cpu.TryGetValue(info, out actualCpu))
+            if (soc_code2cpu.TryGetValue(info, out var actualCpu) || soc_name2cpu.TryGetValue(info, out actualCpu))
                 return actualCpu;
         }
         return infos[2];//默认为hardware
